@@ -29,7 +29,7 @@ function App() {
       <Route path='/contact'element={<Contact/>}/>
       <Route path='/login'element={<Auth/>}/>
       <Route path='/books'element={<Books/>}/>
-      <Route path='/register'element={<Auth/>}/>
+      <Route path='/register'element={<Auth insideRegister/>}/>
 
 
       <Route path='/profile/:id'element={<Profile/>}/>
